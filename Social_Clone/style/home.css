@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #b78aa8;
+}
+.btn{
+    height: 30px;
+    background: #93468a;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 5px;
+    padding: 0px 10px;
+    margin-right: 88%;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.box{
+    background: #efd7e7;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    border-radius: 0 px 30px;
+}
+.content .post-box{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    flex-direction: column;
+}
+.content input[type="text"] {
+    margin-top: 2%;
+    height: 60px;
+    padding-left: 10px;
+    padding-bottom: 25px ;
+    border-radius: 5px;
+    border: 0;
+    position: relative; 
+}
+
+.content input[type="text"]::placeholder {
+    position: absolute;
+    top: 11px; 
+    left: 5px; 
+    color: #999;
+    outline: none;
+    padding-left: 5px;
+}
+.content input[type="text"], .content input[type="text"]::placeholder {
+    outline: none;
+}
+.post img.post-image {
+    width: 58.7%; 
+    height: auto;   
+    border-radius: 10px; 
+    margin-top: 10px; 
+    display: block; 
+}
+.container{
+    display: left;
+    align-items: left;
+    justify-content: left;
+    min-height: 90vh;
+    margin-left: 20%;
+    margin-right: -22%;
+    margin-top: 0%;   
+}
+.container input[type="text"] {
+    margin-top: 0.5%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 45.4%;
+    border-radius: 5px;
+    border: 0;
+    position: relative; 
+}
+.container input[type="text"], .container input[type="text"]::placeholder {
+    outline: none;
+}
+.post{
+    margin-top: 15px;
+}
+.post b{
+    font-size: 19px;
+}
+.post h6{
+    font-size: 13px;
+    font-weight: 1px;
+}
+.post p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.comment{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.comment b{
+    font-size: 15px;
+}
+.comment h6{
+    font-size: 12px;
+    font-weight: 1px;
+}
+.container .comment p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
